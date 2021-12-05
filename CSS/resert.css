@@ -1,0 +1,12 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; /*para que todos os elementos, quando adicionado um margin ou padding não mudem de tamanho*/
+    font-family: 'Roboto Mono', monospace;
+}
+
+html, body{
+    height: 100%; /*para que eu consiga trabalhar com porcentangem no body e html. Nese caso, defini que os elementos pais são em porcentagem*/
+    
+}
+
