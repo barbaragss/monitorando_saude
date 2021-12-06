@@ -1,0 +1,55 @@
+.registro-pagina-geral{
+    height: 100%;
+    padding: 0 2%;
+    background-color: #f9fafb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 750px;
+}
+
+.registro{
+    width: 100%;
+    max-width: 600px;
+    padding: 40px 30px 80px 30px;
+    background-color: white;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(186,185,182,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(186,185,182,1);
+    box-shadow: 10px 10px 5px 0px rgba(186,185,182,1);
+}
+.registro-titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.registro-titulo img{
+    width: 70px;
+    height: 70px;
+}
+.registro-titulo h2 {
+    font-size: 20px;
+}
+.form-group label{
+    font-size: 14px;
+}
+.form-group input{
+    font-size: 14px;
+}
+.registro button {
+    margin-top: 40px;
+    background: linear-gradient(135deg, rgb(218, 131, 230), rgb(121, 121, 231));
+    color: white;
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    border: none;
+
+}
+.registro button:hover {
+    color: white;
+    transform: scale(1.05);
+    transition: 0.2s;
+   
+}

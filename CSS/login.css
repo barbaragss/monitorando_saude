@@ -78,5 +78,6 @@
     }
     .login-form{
         width: 100%;
+        background: linear-gradient(135deg, rgb(220, 171, 226), rgb(153, 153, 236));
     }
 }
