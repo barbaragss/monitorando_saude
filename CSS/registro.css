@@ -53,3 +53,7 @@
     transition: 0.2s;
    
 }
+.menu{
+    border-right: 1px solid rgb(0, 0, 0, .0625);
+    
+}
