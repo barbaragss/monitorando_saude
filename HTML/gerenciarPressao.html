@@ -27,7 +27,7 @@
                     <ul>
                         <li>
                             <i class="fas fa-home"></i>
-                            <a href="#">Dashboard</a>
+                            <a href="dashboard.html">Dashboard</a>
                         </li>
 
                         <li>
@@ -37,26 +37,26 @@
 
                         <li>
                             <i class="fas fa-weight"></i>
-                            <a href="../HTML/gerenciarPeso.html">Gerenciar peso e altura</a>
+                            <a href="gerenciarPeso.html">Gerenciar peso e altura</a>
                         </li>
 
                         <li>
                             <i class="fas fa-heartbeat"></i>
-                            <a href="#">Gerenciar pressão arterial</a>
+                            <a href="gerenciarPressao.html">Gerenciar pressão arterial</a>
                         </li>
 
                         <li>
                             <i class="fas fa-snowboarding"></i>
-                            <a href="#">Gerenciar atividades físicas</a>
+                            <a href="gerenciarAtividades.html">Gerenciar atividades físicas</a>
                         </li>
 
                         <li>
                             <i class="fas fa-utensils"></i>
-                            <a href="#">Gerenciar alimentos</a>
+                            <a href="gerenciarAlimentos.html">Gerenciar alimentos</a>
                         </li>
                         <li>
                             <i class="fas fa-calculator"></i>
-                            <a href="#">Calcular IMC</a>
+                            <a href="calcularIMC.html">Calcular IMC</a>
                         </li>
                     </ul>
                 </div>
@@ -73,7 +73,14 @@
                 </header>
 
                 <div class="main-conteudo">
-                    <p>dadad</p>
+                    <div class="conteudo-titulo-main">
+                        <h2>Gerenciar pressão arterial</h2>
+                    </div>
+                    <div class="painel-fileira">
+                        <button class="painel painel-50" a-visualizacao = "cadastrarPressao" onclick="fetchConteudo(this)" a-pasta ="pressao">Cadastrar peso</button>
+                        <button class="painel painel-50" a-visualizacao = "visualizarPressao" onclick="fetchConteudo(this)"a-pasta ="pressao">Visualizar peso</button>
+                    </div>
+                    <div class="conteudo" id="ajax-conteudo"></div>
                 </div>
             </main>
         </div>
@@ -81,6 +88,7 @@
 
         <script src="../bootstrap/js/bootstrap.min.js"></script>
         <script src="../fontawesome/js/all.min.js"></script>
+        <script src="../JS/ajax.js"></script>
     </body>
 
 </html>

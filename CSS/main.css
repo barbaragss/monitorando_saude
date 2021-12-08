@@ -41,3 +41,60 @@ main .main-conteudo{
     border: 1px solid #ccc;
     margin: 10px 0;
 }
+.painel-fileira {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.painel-50{
+    width: 48%;
+}
+.painel-fileira button{
+    height: 160px;
+    background: linear-gradient(135deg, rgb(218, 131, 230), rgb(121, 121, 231));
+    font-size: 22px;
+    color: white;
+}
+.painel-fileira button:hover{
+    transform: scale(1.10);
+    transition: 0.2s;
+}
+div #ajax-conteudo {
+    width: 100%;
+    margin-top: 20px;
+    
+    background-color: white;
+    box-shadow: 0 0 2rem rgb(220, 171, 226);
+} 
+
+div #ajax-conteudo button{
+    background: linear-gradient(135deg, rgb(218, 131, 230), rgb(121, 121, 231));
+    color: white;
+}
+div #ajax-conteudo button:hover{
+    transform: scale(1.10);
+    transition: 0.2s;
+}
+div #ajax-conteudo label{
+    font-size: 14px;
+    color: #72777a;
+}
+
+div #ajax-conteudo table svg{
+    cursor: pointer;
+}
+.conteudo-dinamico{
+    padding: 20px;
+}
+div .conteudo-titulo-main {
+    padding: 5px 0;
+
+}
+div .conteudo-titulo-main h2{
+   text-transform: uppercase;
+   font-size: 20px;
+   font-weight: 300;
+   color: #72777a;
+}
