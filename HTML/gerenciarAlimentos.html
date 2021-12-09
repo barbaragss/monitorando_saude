@@ -32,7 +32,7 @@
 
                         <li>
                             <i class="fas fa-user"></i>
-                            <a href="#">Perfil</a>
+                            <a href="perfil.html">Perfil</a>
                         </li>
 
                         <li>
@@ -50,7 +50,7 @@
                             <a href="gerenciarAtividades.html">Gerenciar atividades físicas</a>
                         </li>
 
-                        <li>
+                        <li class="selecionado">
                             <i class="fas fa-utensils"></i>
                             <a href="gerenciarAlimentos.html">Gerenciar alimentos</a>
                         </li>
@@ -77,8 +77,8 @@
                         <h2>Gerenciar alimentos</h2>
                     </div>
                     <div class="painel-fileira">
-                        <button class="painel painel-50" a-visualizacao = "cadastrarAlimento" onclick="fetchConteudo(this)" a-pasta ="alimentos">Cadastrar peso</button>
-                        <button class="painel painel-50" a-visualizacao = "visualizarAlimento" onclick="fetchConteudo(this)"a-pasta ="alimentos">Visualizar peso</button>
+                        <button class="painel painel-50" a-visualizacao = "cadastrarAlimento" onclick="fetchConteudo(this)" a-pasta ="alimentos"><i class="fas fa-plus"></i>Cadastrar peso</button>
+                        <button class="painel painel-50" a-visualizacao = "visualizarAlimento" onclick="fetchConteudo(this)"a-pasta ="alimentos"><i class="fas fa-table"></i>Visualizar peso</button>
                     </div>
                     <div class="conteudo" id="ajax-conteudo"></div>
                 </div>

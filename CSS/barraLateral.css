@@ -59,3 +59,9 @@ div .menu ul li a:hover{
     color: #4d4d4d;
 
 }
+.selecionado{
+    background-color: #f0f0f0;
+}
+.selecionado a {
+    color: black !important;
+}

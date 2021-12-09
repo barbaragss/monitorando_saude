@@ -16,7 +16,7 @@
     background-color: white;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(186,185,182,1);
     -moz-box-shadow: 10px 10px 5px 0px rgba(186,185,182,1);
-    box-shadow: 10px 10px 5px 0px rgba(186,185,182,1);
+    box-shadow: 0 0 2rem rgb(0, 0, 0, 0.1);
 }
 .registro-titulo{
     display: flex;

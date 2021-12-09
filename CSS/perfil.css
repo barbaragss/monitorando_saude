@@ -1,0 +1,66 @@
+div .perfil-container {
+    padding: 10px 0;
+}
+
+div .perfil-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+div .perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    width: 100%;
+    padding: 40px 20px;
+    background-color: white;
+    box-shadow: 0 0 1rem rgb(0, 0, 0, 0.1);
+   
+}
+div .perfil-img{
+    width: 40%;
+
+}
+div .perfil-form {
+    width: 60%;
+}
+div .perfil-form label{
+    font-size: 14px;
+    color: #72777a;
+}
+
+div .perfil-form imput, div .perfil-form select {
+    font-size: 14px;
+    color: #72777a;
+}
+div .perfil-form .custom-file{
+    margin-top: 10px;
+}
+
+div .perfil-form button{
+    margin-top: 10px;
+}
+div .img {
+    height: 500px;
+    width: 400px;
+    box-shadow: 0 0 2rem rgb(0, 0, 0, 0.1);
+    background-image: url('../IMAGENS/fotoPerfil.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rgb(201, 191, 191);
+    border-radius: 5px;
+}
+div .perfil-form button{
+    background: linear-gradient(135deg, rgb(218, 131, 230), rgb(121, 121, 231));
+    color: white;
+    border: none;
+}
+div .perfil-form button:hover{
+    color: white;
+    transform: scale(1.10);
+    transition: 0.2s;
+}

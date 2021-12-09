@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/all.css">
+    <title>Dashboard - monitorando sua saúde</title>
+</head>
+
+<body>
+
+    <div class="flex-dashboard">
+        <sidebar>
+            <div class="sidebar-titulo">
+                <img src="../IMAGENS/212-2126667_cuidados-com-o-seu-corao-saude-png-removebg-preview.png" alt="">
+                <h2>Monitorando sua saúde</h2>
+
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li>
+                        <i class="fas fa-home"></i>
+                        <a href="dashboard.html">Dashboard</a>
+                    </li>
+
+                    <li class="selecionado">
+                        <i class="fas fa-user"></i>
+                        <a  href="perfil.html">Perfil</a>
+                    </li>
+
+                    <li>
+                        <i class="fas fa-weight"></i>
+                        <a href="gerenciarPeso.html">Gerenciar peso e altura</a>
+                    </li>
+
+                    <li>
+                        <i class="fas fa-heartbeat"></i>
+                        <a href="gerenciarPressao.html">Gerenciar pressão arterial</a>
+                    </li>
+
+                    <li>
+                        <i class="fas fa-snowboarding"></i>
+                        <a href="gerenciarAtividades.html">Gerenciar atividades físicas</a>
+                    </li>
+
+                    <li>
+                        <i class="fas fa-utensils"></i>
+                        <a href="gerenciarAlimentos.html">Gerenciar alimentos</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-calculator"></i>
+                        <a href="calcularIMC.html">Calcular IMC</a>
+                    </li>
+                </ul>
+            </div>
+        </sidebar>
+
+        <main>
+            <header>
+                <a href="dashboard.html"> <i class="fas fa-home"></i>
+                    Dashboard
+                </a>
+                <a href="../index.html"> <i class="fas fa-sign-out-alt"></i>
+                    Sair
+                </a>
+            </header>
+
+            <div class="main-conteudo">
+                <div class="conteudo-titulo-main">
+                    <h2>Perfil</h2>
+                </div>
+                <div class="perfil-container">
+                    <div class="perfil">
+                        <div class="perfil-img">
+                            <div class="img">
+                                
+                            </div>
+                        </div>
+                        <div class="perfil-form">
+                            <form>
+                                <div class="form-group">
+                                    <label for="nome">Nome completo</label>
+                                    <input type="text" class="form-control" id="nome" placeholder="Seu nome completo">
+                                </div>
+                
+                                <div class="form-group">
+                                    <label for="Idade">Idade</label>
+                                    <input type="text" class="form-control" id="Idade" placeholder="Idade">
+                                </div>
+                
+                                <div class="form-group">
+                                    <label for="genero">Gênero</label>
+                                    <select class="form-control" id="genero">
+                                        <option>Masculino</option>
+                                        <option>Feminino</option>
+                                        <option>Prefiro não informar</option>
+                                    </select>
+                                </div>
+                
+                                <div class="form-group">
+                                    <label for="email">Endereço de email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Seu email">
+                                </div>
+                
+                                <div class="form-group">
+                                    <label for="senha">Senha</label>
+                                    <input type="password" class="form-control" id="senha" placeholder="Senha">
+                                </div>
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="customFile">
+                                    <label class="custom-file-label" for="customFile">Escolher arquivo</label>
+                                  </div>
+                                <button type="submit" class="btn">Cadastrar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../fontawesome/js/all.min.js"></script>
+</body>
+
+</html>

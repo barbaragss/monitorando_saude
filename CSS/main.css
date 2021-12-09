@@ -1,7 +1,7 @@
 main{
     display: block;
     height: 100%;
-    background-color: #f7f7f7;
+    background-color: rgb(250, 250, 250);
     width: calc(100% - 300px);
     
 }
@@ -40,6 +40,7 @@ main .main-conteudo{
     padding: 20px;
     border: 1px solid #ccc;
     margin: 10px 0;
+     
 }
 .painel-fileira {
     display: flex;
@@ -56,18 +57,23 @@ main .main-conteudo{
     background: linear-gradient(135deg, rgb(218, 131, 230), rgb(121, 121, 231));
     font-size: 22px;
     color: white;
+  
+}
+.painel-fileira button svg {
+    margin-bottom: 10px;
+    font-size: 30px;
 }
 .painel-fileira button:hover{
-    transform: scale(1.10);
+    transform: scale(1.05);
     transition: 0.2s;
 }
 div #ajax-conteudo {
     width: 100%;
-    margin-top: 20px;
-    
+    margin-top: 20px; 
     background-color: white;
-    box-shadow: 0 0 2rem rgb(220, 171, 226);
-} 
+    box-shadow: 0 0 2rem rgb(0, 0, 0, 0.1);
+}
+
 
 div #ajax-conteudo button{
     background: linear-gradient(135deg, rgb(218, 131, 230), rgb(121, 121, 231));
@@ -97,4 +103,30 @@ div .conteudo-titulo-main h2{
    font-size: 20px;
    font-weight: 300;
    color: #72777a;
+}
+div .imc-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+div .imc{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1300px;
+    width: 100%;
+    padding: 40px 20px;
+    background-color: white;
+    box-shadow: 0 0 1rem rgb(0, 0, 0, 0.1);
+}
+div .imc h2{
+    font-weight: 300;
+    color: #72777a;
+}
+div .imc h2 span:nth-child(2){
+    color: rgb(185, 101, 181);
+    font-weight: 600;
 }
