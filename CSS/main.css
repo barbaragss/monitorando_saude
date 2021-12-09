@@ -91,7 +91,7 @@ div #ajax-conteudo label{
 div #ajax-conteudo table svg{
     cursor: pointer;
 }
-.conteudo-dinamico{
+div .conteudo-dinamico{
     padding: 20px;
 }
 div .conteudo-titulo-main {
@@ -141,14 +141,25 @@ div .dashboard-flex{
     justify-content: space-around;
 }
 div .dashboard-box{
+    width: 100%;
+    max-width: 320px;
+    padding-top: 15%;
+    position: relative;
+    margin: 0 10px;
+    padding-bottom: 20px;
+}
+div .dashboard-box-wrapper{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    max-width: 275px;
-    height: 210px;
-   background-color: white;
-   padding: 20px;
+    justify-content: center;
+    background-color: white;
+
 }
 div .dashboard-box:hover{
     transition: 0.5s;
@@ -176,16 +187,20 @@ div .valor{
     margin-top: 10px;
     text-transform: uppercase;
     font-size: 23px;
+    color: #111;
 
 }
 div .tipo{
     font-size: 14px;
     margin-top: 5px;
     text-transform: uppercase;
+    color: #111;
+    font-weight: 400;
 }
 div .box-peso{
     background-color: rgba(110, 142, 251, 0.1);
     color: #6283f5;
+    font-weight: 400;
 }
 div .box-pressao{
     background-color: rgba(229, 115, 115, 0.1);
@@ -203,8 +218,57 @@ div .box-percentual-valor{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 div .box-percentual-valor svg{
     margin-right: 10px;
+}
+div .box-valor-peso{
+    color: #6283f5;
+}
+
+div .box-valor-pressao{
+    color: #ef5350;
+}
+div .box-valor-imc{
+    color: #afb42b;
+}
+div .box-valor-atividade{
+    color: #ff5722;
+}
+div .box-percentual-valor span{
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1600px) {
+    .dashboard-box{
+        width: 100%;
+        max-width: 300px;
+        padding-top: 20%;
+        position: relative;
+        margin: 0 10px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .dashboard-flex{
+        flex-wrap: wrap;
+    }
+    .dashboard-box{
+        padding: 0;
+        height: 240;
+        margin: 20px;
+        padding-bottom: 20px;
+    }
+    .box-icons{
+        margin-top: 20px;
+    }
+    .box-percentual-valor{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
