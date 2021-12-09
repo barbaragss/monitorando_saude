@@ -130,3 +130,81 @@ div .imc h2 span:nth-child(2){
     color: rgb(185, 101, 181);
     font-weight: 600;
 }
+div .dashboard-conteudo{
+   padding: 10px 0;
+
+}
+div .dashboard-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+div .dashboard-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 275px;
+    height: 210px;
+   background-color: white;
+   padding: 20px;
+}
+div .dashboard-box:hover{
+    transition: 0.5s;
+   box-shadow: 0 0 1rem rgba(156, 156, 156, 0.4);
+   transform: scale(1.05);
+
+}
+div .dashboard-box span{
+    text-transform: uppercase;
+}
+div .box-icons{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+}
+div .box-icons svg{
+    font-size: 18px;
+}
+div .valor{
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 23px;
+
+}
+div .tipo{
+    font-size: 14px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+div .box-peso{
+    background-color: rgba(110, 142, 251, 0.1);
+    color: #6283f5;
+}
+div .box-pressao{
+    background-color: rgba(229, 115, 115, 0.1);
+    color: #ef5350;
+}
+div .box-imc{
+    background-color: rgba(220, 231, 117, 0.4);
+    color: #afb42b;
+}
+div .box-atividade{
+    background-color: rgba(255, 138, 101, 0.1);
+    color: #ff5722;
+}
+div .box-percentual-valor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+div .box-percentual-valor svg{
+    margin-right: 10px;
+}

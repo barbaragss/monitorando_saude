@@ -1,86 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../fontawesome/css/all.min.css">
-        <link rel="stylesheet" href="../CSS/all.css">
-        <title>Dashboard - monitorando sua saúde</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/all.css">
+    <title>Dashboard - monitorando sua saúde</title>
+</head>
 
-    <body>
+<body>
 
-        <div class="flex-dashboard">
-            <sidebar>
-                <div class="sidebar-titulo">
-                    <img
-                        src="../IMAGENS/212-2126667_cuidados-com-o-seu-corao-saude-png-removebg-preview.png"
-                        alt="">
-                    <h2>Monitorando sua saúde</h2>
+    <div class="flex-dashboard">
+        <sidebar>
+            <div class="sidebar-titulo">
+                <img src="../IMAGENS/212-2126667_cuidados-com-o-seu-corao-saude-png-removebg-preview.png" alt="">
+                <h2>Monitorando sua saúde</h2>
 
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li class="selecionado">
+                        <i class="fas fa-home"></i>
+                        <a href="dashboard.html">Dashboard</a>
+                    </li>
+
+                    <li>
+                        <i class="fas fa-user"></i>
+                        <a href="perfil.html">Perfil</a>
+                    </li>
+
+                    <li>
+                        <i class="fas fa-weight"></i>
+                        <a href="gerenciarPeso.html">Gerenciar peso e altura</a>
+                    </li>
+
+                    <li>
+                        <i class="fas fa-heartbeat"></i>
+                        <a href="gerenciarPressao.html">Gerenciar pressão arterial</a>
+                    </li>
+
+                    <li>
+                        <i class="fas fa-snowboarding"></i>
+                        <a href="gerenciarAtividades.html">Gerenciar atividades físicas</a>
+                    </li>
+
+                    <li>
+                        <i class="fas fa-utensils"></i>
+                        <a href="gerenciarAlimentos.html">Gerenciar alimentos</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-calculator"></i>
+                        <a href="calcularIMC.html">Calcular IMC</a>
+                    </li>
+                </ul>
+            </div>
+        </sidebar>
+
+        <main>
+            <header>
+                <a href="dashboard.html"> <i class="fas fa-home"></i>
+                    Dashboard
+                </a>
+                <a href="../index.html"> <i class="fas fa-sign-out-alt"></i>
+                    Sair
+                </a>
+            </header>
+
+            <div class="main-conteudo">
+                <div class="conteudo-titulo-main">
+                    <h2> Dashboard</h2>
                 </div>
+                <div class="dashboard-conteudo">
+                    <div class="dashboard-flex">
+                        <div class="dashboard-box">
+                            <div class="box-icons box-peso"><i class="fas fa-weight"></i></div>
+                            <div class="valor">80KG</div>
+                            <div class="tipo">PESO</div>
+                            <div class="box-percentual-valor">
+                                <i class="fas fa-long-arrow-alt-up"></i>
+                                <span>10%</span>
+                            </div>
+                        </div>
+                        <div class="dashboard-box">
+                            <div class="box-icons box-pressao"><i class="fas fa-heartbeat"></i></i></div>
+                            <div class="valor">23MMHC</div>
+                            <div class="tipo">PRESSÃO ARTERIAL</div>
+                            <div class="box-percentual-valor">
+                                <i class="fas fa-long-arrow-alt-up"></i>
+                                <span>10%</span>
+                            </div>
+                        </div>
+                        <div class="dashboard-box">
+                            <div class="box-icons box-imc"><i class="fas fa-calculator"></i></div>
+                            <div class="valor">23.02</div>
+                            <div class="tipo">IMC</div>
+                            <div class="box-percentual-valor">
+                                <span>normal</span>
+                            </div>
+                        </div>
+                        <div class="dashboard-box">
+                            <div class="box-icons box-atividade"><i class="fas fa-biking"></i></i></div>
+                            <div class="valor">BICICLETA</div>
+                            <div class="tipo">atividade física</div>
+                            <div class="box-percentual-valor">
+                                <i class="far fa-clock"></i>
+                                <span>10/12/2021</span>
+                            </div>
 
-                <div class="menu">
-                    <ul>
-                        <li class="selecionado">
-                            <i class="fas fa-home"></i>
-                            <a href="dashboard.html">Dashboard</a>
-                        </li>
-
-                        <li>
-                            <i class="fas fa-user"></i>
-                            <a href="perfil.html">Perfil</a>
-                        </li>
-
-                        <li>
-                            <i class="fas fa-weight"></i>
-                            <a href="gerenciarPeso.html">Gerenciar peso e altura</a>
-                        </li>
-
-                        <li>
-                            <i class="fas fa-heartbeat"></i>
-                            <a href="gerenciarPressao.html">Gerenciar pressão arterial</a>
-                        </li>
-
-                        <li>
-                            <i class="fas fa-snowboarding"></i>
-                            <a href="gerenciarAtividades.html">Gerenciar atividades físicas</a>
-                        </li>
-
-                        <li>
-                            <i class="fas fa-utensils"></i>
-                            <a href="gerenciarAlimentos.html">Gerenciar alimentos</a>
-                        </li>
-                        <li>
-                            <i class="fas fa-calculator"></i>
-                            <a href="calcularIMC.html">Calcular IMC</a>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
-            </sidebar>
+            </div>
 
-            <main>
-                <header>
-                    <a href="dashboard.html"> <i class="fas fa-home"></i>
-                        Dashboard
-                    </a>
-                    <a href="../index.html"> <i class="fas fa-sign-out-alt"></i>
-                        Sair
-                    </a>
-                </header>
-
-                <div class="main-conteudo">
-                    <p>dadad</p>
-                </div>
-            </main>
-        </div>
+        </main>
+    </div>
 
 
-        <script src="../bootstrap/js/bootstrap.min.js"></script>
-        <script src="../fontawesome/js/all.min.js"></script>
-    </body>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../fontawesome/js/all.min.js"></script>
+</body>
 
 </html>
