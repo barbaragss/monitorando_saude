@@ -9,7 +9,7 @@ sidebar{
     display: block;
     height: 100%;
     width: 300px;
-    background-color:#ffff;
+    background: linear-gradient(135deg, rgb(245, 220, 248), rgb(194, 194, 231));
 }
 sidebar .sidebar-titulo {
     display: flex;

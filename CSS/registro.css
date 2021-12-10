@@ -1,7 +1,7 @@
 .registro-pagina-geral{
     height: 100%;
     padding: 0 2%;
-    background-color: #f9fafb;
+    background: linear-gradient(135deg, rgb(245, 220, 248), rgb(194, 194, 231));
     display: flex;
     flex-direction: column;
     align-items: center;

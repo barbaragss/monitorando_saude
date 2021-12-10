@@ -1,7 +1,7 @@
 main{
     display: block;
     height: 100%;
-    background-color: rgb(250, 250, 250);
+    background: linear-gradient(135deg, rgb(245, 220, 248), rgb(194, 194, 231));
     width: calc(100% - 300px);
     
 }
@@ -251,20 +251,21 @@ div .box-percentual-valor span{
     }
 }
 
+
 @media screen and (max-width: 1280px) {
-    .dashboard-flex{
+    div .dashboard-flex{
         flex-wrap: wrap;
     }
-    .dashboard-box{
+    div .dashboard-box{
         padding: 0;
-        height: 240;
+        height: 240px;
         margin: 20px;
         padding-bottom: 20px;
     }
-    .box-icons{
+   div .box-icons{
         margin-top: 20px;
     }
-    .box-percentual-valor{
+    div .box-percentual-valor{
         display: flex;
         flex-direction: row;
         align-items: center;

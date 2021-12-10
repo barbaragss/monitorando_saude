@@ -11,7 +11,7 @@ div .perfil-container{
 div .perfil{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
     max-width: 1300px;
     width: 100%;
@@ -43,6 +43,16 @@ div .perfil-form .custom-file{
 div .perfil-form button{
     margin-top: 10px;
 }
+div .perfil-form button{
+    background: linear-gradient(135deg, rgb(218, 131, 230), rgb(121, 121, 231));
+    color: white;
+    border: none;
+}
+div .perfil-form button:hover{
+    color: white;
+    transform: scale(1.10);
+    transition: 0.2s;
+}
 div .img {
     height: 500px;
     width: 400px;
@@ -53,14 +63,4 @@ div .img {
     background-size: cover;
     border: 2px solid rgb(201, 191, 191);
     border-radius: 5px;
-}
-div .perfil-form button{
-    background: linear-gradient(135deg, rgb(218, 131, 230), rgb(121, 121, 231));
-    color: white;
-    border: none;
-}
-div .perfil-form button:hover{
-    color: white;
-    transform: scale(1.10);
-    transition: 0.2s;
 }

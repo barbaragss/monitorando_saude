@@ -14,7 +14,7 @@
 <body>
 
     <div class="flex-dashboard">
-        <sidebar>
+        <sidebar id="sidebar">
             <div class="sidebar-titulo">
                 <img src="../IMAGENS/212-2126667_cuidados-com-o-seu-corao-saude-png-removebg-preview.png" alt="">
                 <h2>Monitorando sua saúde</h2>
@@ -60,11 +60,9 @@
             </div>
         </sidebar>
 
-        <main>
+        <main id="main-conteudo-total">
             <header>
-                <a href="dashboard.html"> <i class="fas fa-home"></i>
-                    Dashboard
-                </a>
+                <i class="fas fa-bars" id="icon-menu" onclick="barraLateralResponsive()"></i>
                 <a href="../index.html"> <i class="fas fa-sign-out-alt"></i>
                     Sair
                 </a>
@@ -90,7 +88,7 @@
                         <div class="dashboard-box">
                             <div class="dashboard-box-wrapper">
                                 <div class="box-icons box-pressao"><i class="fas fa-heartbeat"></i></i></div>
-                                <div class="valor">23MMHC</div>
+                                <div class="valor">130MMHC</div>
                                 <div class="tipo">PRESSÃO ARTERIAL</div>
                                 <div class="box-percentual-valor box-valor-pressao">
                                     <i class="fas fa-long-arrow-alt-up"></i>
@@ -101,7 +99,7 @@
                         <div class="dashboard-box">
                             <div class="dashboard-box-wrapper">
                                 <div class="box-icons box-imc"><i class="fas fa-calculator"></i></div>
-                                <div class="valor">23.02</div>
+                                <div class="valor">19.5</div>
                                 <div class="tipo">IMC</div>
                                 <div class="box-percentual-valor box-valor-imc">
                                     <span>normal</span>
@@ -130,6 +128,7 @@
 
     <script src="../bootstrap/js/bootstrap.min.js"></script>
     <script src="../fontawesome/js/all.min.js"></script>
+    <script src="../JS/menu.js"></script>
 </body>
 
 </html>
