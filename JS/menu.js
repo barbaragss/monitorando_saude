@@ -1,7 +1,7 @@
 let iconMenu = document.getElementById('icon-menu')
 let sidebar = document.getElementById('sidebar')
 let tamanhoTela = window.innerWidth //retorna o largura da tela do navegador
-let conteudoMain = window.getElementById('main-conteudo-total')
+let conteudoMain = document.getElementById('main-conteudo-total')
 
 window.addEventListener("resize", () => {
     tamanhoTela = window.innerWidth
